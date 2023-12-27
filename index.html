@@ -11,10 +11,14 @@
     <meta property="og:description" content="By Akash" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://100daysofcode2023.netlify.app/" />
-    <meta property="og:image" content="https://repository-images.githubusercontent.com/344494700/f3cb0880-895f-11eb-8e3e-1eb4456d34df">
+    <meta property="og:image"
+        content="https://repository-images.githubusercontent.com/344494700/f3cb0880-895f-11eb-8e3e-1eb4456d34df">
     <title>100DaysOfCode Challage - Akash Nath</title>
     <!-- <link rel="website icon" type="image/png" href="./favicon.png"> -->
     <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 
     <style>
         * {
@@ -25,7 +29,8 @@
         }
 
         body {
-            background-color: #f1f1f1;
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
         }
 
         .container {
@@ -40,11 +45,12 @@
 
         ul li {
             margin: 10px 0;
+            color: #fff;
         }
 
         ul li a {
-            /* text-decoration: none; */
-            color: #000;
+            text-decoration: none;
+            color: #fff;
             font-size: 20px;
             font-weight: 500;
             padding: 10px 20px;
@@ -59,11 +65,12 @@
             position: absolute;
             bottom: 0;
             padding: 5vh 0;
+            color: #fff;
         }
 
         footer a {
             /* text-decoration: none; */
-            color: #000;
+            color: #fff;
             font-size: 17px;
             font-weight: 500;
             border-radius: 5px;
@@ -72,8 +79,18 @@
         }
 
         ul li a:hover {
-            background-color: #000;
+            text-decoration: underline;
             color: #fff;
+        }
+
+        #heading {
+            font-family: 'Oswald', sans-serif;
+            font-size: 80px;
+            /* font-weight: 700; */
+            color: #fff;
+            margin: 20px 0;
+            opacity: 0.7;
+            /* text-decoration: underline; */
         }
     </style>
 </head>
@@ -81,14 +98,15 @@
 <body>
     <div class="container">
         <center>
-            <h1>100DaysOfCode Challange</h1>
+            <h1 id="heading">100DaysOfCode Challange</h1>
         </center>
         <ul>
             <li><a href="https://tomato-deedee-24.tiiny.site/">Day 1</a></li>
         </ul>
     </div>
     <footer>
-        Made by <a href="https://akashnath.netlify.app">Akash Nath <br> <br> <a href="https://github.com/Akash-nath29/100daysOfCode">Join Me</a></a>
+        Made by <a href="https://akashnath.netlify.app">Akash Nath <br> <br> <a
+                href="https://github.com/Akash-nath29/100daysOfCode">Join Me</a></a>
     </footer>
 </body>
 
