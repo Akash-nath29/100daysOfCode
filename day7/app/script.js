@@ -1,4 +1,4 @@
-const url = "http://127.0.0.1:80"; // Use the correct port
+const url = "http://129.213.151.29:6012/"; // Use the correct port
 
 const btn = document.querySelector("button");
 const queryInput = document.querySelector("#query");
