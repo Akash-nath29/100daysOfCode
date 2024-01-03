@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "SearchRover",
+    "version": "1.0",
+    "description": "",
+    "icons": {
+      "48": "icon.png"
+    },
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
