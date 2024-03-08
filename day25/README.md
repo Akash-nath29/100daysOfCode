@@ -49,7 +49,7 @@ python app.py
 - **File Sharing**: Add file sharing capabilities to the app to allow users to share documents and media files during meetings.
 
 **Contributors:**
-- [Akash Nath](https://www.linkedin.com/in/akash-nath-29/) (Project Lead)
+- [Akash Nath](https://www.linkedin.com/in/akash-nath29/) (Project Lead)
 
 
 **Let me know if you have any suggestions or feedback!**
