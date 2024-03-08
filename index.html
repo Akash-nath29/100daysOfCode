@@ -43,10 +43,10 @@
             /* list-style: none;  */
             display: grid;
             /* display: grid; */
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(10, 1fr);
             gap: 10px;
             overflow-y: scroll;
-            height: 85vh;
+            height: 50vh;
         }
 
         ul::-webkit-scrollbar {
@@ -76,9 +76,15 @@
             text-align: center;
             position: absolute;
             bottom: 0;
-            padding: 5vh 0;
+            padding: 2vh 0;
             color: #fff;
-            overflow: hidden;
+            /* overflow: none; */
+            position: fixed;
+            bottom: 0;
+            background-color: transparent;
+            /* left: 50%; */
+            /* transform: translate(-50%, -50%); */
+            /* width: 100%; */
         }
 
         footer a {
@@ -115,15 +121,16 @@
                 /* list-style: none;  */
                 display: grid;
                 /* display: grid; */
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(4, 1fr);
                 /* gap: 10px; */
                 overflow-y: scroll;
-                height: 85vh;
+                height: 50vh;
             }
 
             ul li a {
                 font-size: 12px;
                 width: 100%;
+                padding: 0;
             }
         }
     </style>
