@@ -1,5 +1,8 @@
 # Day-25
 ## Built SyncZ, the ultimate meeting app for Gen-Zs
+
+![day25](https://github.com/Akash-nath29/100daysOfCode/assets/100131577/2347b881-d637-44b8-99de-e02919a01e16)
+
 **It has:**
 - Flask based Backend
 - HTML, CSS, JS based Frontend
