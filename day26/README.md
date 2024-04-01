@@ -1,4 +1,5 @@
 # Image Classifier for Mood Detection
+![day26](https://github.com/Akash-nath29/100daysOfCode/assets/100131577/0e1faf2b-c327-4165-835e-a8d19da89d08)
 
 This TensorFlow-based image classifier is designed to detect a person's mood from an image, classifying them as either happy or sad. The model has been trained on a dataset containing labeled images of individuals expressing happiness and sadness.
 
